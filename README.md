@@ -1,4 +1,2 @@
 # myrepo
 hi
-
-`code`
