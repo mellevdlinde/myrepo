@@ -1,3 +1,3 @@
 # myrepo
 hi
-'code'
+`code`
