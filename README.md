@@ -1,5 +1,5 @@
 # Portfolio for Computational Musicology
 
-Topic: Is the album still a meaningful concept? For **Erykah Badu**, check whether the songs within albums are more similar to each other than songs on different albums. Is there a measurable pattern or forumla for predicting which track will be first or last?
+Topic: What does it mean to be a ‘workout’ playlist? Find several examples of workout playlists on Spotify and comparable playlists without the workout label. Is there a measurable difference between the groups?
 
-`code`
+So far, I compared the "Beast Mode" playlist (by spotify) and "Workout Flow" playlist (by Joe Kay) with the mellow "real good shit" playlist (by Tom Misch). 
