@@ -1,3 +1,5 @@
+# Disney: Wednesday, February 5th
+
 # Portfolio for Computational Musicology
 
 Topic: What does it mean to be a "workout" playlist? Find several examples of workout playlists on Spotify and comparable playlists without the workout label. Is there a measurable difference between the groups?
@@ -11,3 +13,7 @@ plot(x, dnorm(x, 124,18.32), type = "l", xlim = c(60,160));
 points(x, dnorm(x,109,31), type = "l", col = "red")`
 
 This shows that there is a big overlap for the two playlists in tempo. Therefore, it's questionnable whether the difference in tempo is substantive. 
+
+Finally, I made some boxplots to see if there are any outliers for each playlist on each variable. There are some for particular playlists. However, there is always another playlist that has this outlier as well, or it falls in the "normal" range of another playlist. Therefore, I decided not to exclude any outliers.
+
+
