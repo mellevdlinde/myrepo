@@ -15,3 +15,10 @@ This shows that there is a big overlap for the two playlists in tempo. Therefore
 Finally, I made some boxplots to see if there are any outliers for each playlist on each variable. There are some for particular playlists. However, there is always another playlist that has this outlier as well, or it falls in the "normal" range of another playlist. Therefore, I decided not to exclude any outliers.
 
 ### Disney: Wednesday, February 5th
+
+For the Disney exercise, we tried to find out wat was different about "Let It Go" from Frozen compared to other Disney hits from the Disney Hits playlist by Walt Disney Records. To get the information, I used `get_playlist_audio_features('128899670', '5NtjgKz4doejP5HJtKXFcS')`. However, there were no substantive differences found. The only variable that was different was key. However, this might be hard (if not impossible) to interpret. The code I used can be found below.
+
+`disney <- get_playlist_audio_features('128899670', '5NtjgKz4doejP5HJtKXFcS');
+disney_sub <- disney[,6:16];
+letitgo <- get_track_audio_features("0qcr5FMsEO85NAQjrlDRKo")[,1:11];
+cbind(describe(disney_sub)[,c(3,4)], describe(letitgo)[,c(3,4)])`
