@@ -1,4 +1,4 @@
-### Portfolio for Computational Musicology
+### Portfolio for Computational Musicology!
 
 Topic: **What does it mean to be a "workout" playlist?** In this portfolio, I'll take several examples of workout playlists on Spotify and comparable playlists without the workout label. Is there a measurable difference between the groups? What are workout playlist classifiers? And when can a song be classified as a workout song?
 
