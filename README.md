@@ -1,6 +1,6 @@
 ### Portfolio for Computational Musicology
 
-Topic: What does it mean to be a "workout" playlist? Find several examples of workout playlists on Spotify and comparable playlists without the workout label. Is there a measurable difference between the groups?
+Topic: **What does it mean to be a "workout" playlist?** In this portfolio, I'll take several examples of workout playlists on Spotify and comparable playlists without the workout label. Is there a measurable difference between the groups? What are workout playlist classifiers? And when can a song be classified as a workout song?
 
 So far, I compared the following "workout" playlists: Beast Mode, Motivation Mix and Top Hits Workout (all by Spotify). The "chill" playlists are: JAEL & CHILL (Jaël), real good shit (Tom Misch) and Lo-Fi Beats (Spotify). I combined all playlists using `rbind()`, and did all analyses for individual playlists using `group_by(playlist_name)`. Some means and standard deviations I wanted to calculate, contained "NA". Therefore I used the argument `na.rm = TRUE` while calculating the means and standard deviations.
 
