@@ -16,6 +16,10 @@ This shows that there is quite some overlap for the two playlist types in tempo.
 
 Finally, I made some boxplots to see if there are any outliers for each playlist type on each variable. There are a few found. However, the outliers on one variable of a playlist type always fall within the "normal" range of the variable of the other playlist type. Therefore, it seemed reasonable not to exclude any outliers.
 
+<img src="Rplot.png" width="600">
+
+The plot above mainly shows the relationship between energy and acousticness, for both the chill and the workout playlist(s). The difference should be easily interpretable: workout playlists are mainly in the fourth quadrant, which is high on energy and low on acousticness. On the other hand, the chill playlist is more distributed over the four quadrants. Still, the most songs in the chill playlist are in the high energy and low acousticness quadrant. This is an expected result, since one might expect workout songs to have high energy (for ultimate workout motivation) and low acousticness (since the most motivating songs are usually more electronic than acoustic). Especially for the chill playlist, there seems to be a clear negative relationship. More acousticness means lower energy and vice versa. To be honest, I did not really expect this proportion of high energy songs in the chill playlist. Maybe it is because *n = 1* for the chill playlists, so it might be questionable whether this can be generalized to all chill playlists. 
+
 ### Disney: Wednesday, February 5th
 
 For the Disney exercise, we tried to find out wat was different about "Let It Go" from Frozen compared to other Disney hits from the Disney Hits playlist by Walt Disney Records. To get the information, I used `get_playlist_audio_features('128899670', '5NtjgKz4doejP5HJtKXFcS')`. However, there were no substantive differences found. The only variable that was different was key. However, this might be hard (if not impossible) to interpret. The code I used can be found below.
